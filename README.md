@@ -1,1 +1,1 @@
-0x16. C - Simple Shell - Team projec
+0x16. C - Simple Shell - Team project
