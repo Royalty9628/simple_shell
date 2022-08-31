@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * get_error - function that calls the error according to the builtin,
