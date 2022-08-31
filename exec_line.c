@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * exec_line - function that finds builtins and commands
