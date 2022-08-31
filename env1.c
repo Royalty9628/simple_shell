@@ -8,7 +8,7 @@
  * Return: 0 if are not equal. Another value if they are
  */
 
-int cmp_env-name(const char *nenv, const char *name)
+int cmp_env_name(const char *nenv, const char *name)
 {
 	int j;
 
@@ -28,7 +28,7 @@ int cmp_env-name(const char *nenv, const char *name)
  * Return: value of the environment variables if found or NULL
  */
 
-char *_getenv(const char *name, c har **_environ)
+char *_getenv(const char *name, char **_environ)
 {
 	char *ptr_env;
 	int R, D;
@@ -67,5 +67,5 @@ int _env(data_shell *datash)
 		write(STDOUT_FILENO, "\n", 1);
 	}
 	datash->status = 0;
-	reeturn (1);
+	return (1);
 }
