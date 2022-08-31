@@ -2,7 +2,7 @@
 
 /**
  * get_help - function that retrieves help messages according to builtin
- * @darash: data structure (arges and input)
+ * @datash: data structure (arges and input)
  * Return: Always 0
  */
 

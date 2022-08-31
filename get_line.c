@@ -66,7 +66,7 @@ ssize_t get_line(char **lineptr, size_t *n, FILE *stream)
 		if (A == -1 || (A == 0 && input == 0))
 		{
 			free(buffer);
-			return (-1)
+			return (-1);
 		}
 		if (A == 0 && input != 0)
 		{
@@ -78,8 +78,9 @@ ssize_t get_line(char **lineptr, size_t *n, FILE *stream)
 		buffer[input] = t;
 		input++;
 	}
-	beffer[input] = '\0';
-	bring_line(lineptr, n, buffer, input);retval = input;
+	buffer[input] = '\0';
+	bring_line(lineptr, n, buffer, input);
+	retval = input;
 	if (A != 0)
 		input = 0;
 	return (retval);

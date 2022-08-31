@@ -6,7 +6,7 @@
  * Return: input without comments
  */
 
-char *without_comment(caar *in)
+char *without_comment(char *in)
 {
 	int j;
 	int roda;
@@ -36,9 +36,9 @@ char *without_comment(caar *in)
 
 
 /**
- * shell-loop - Loop of shell
+ * shell_loop - Loop of shell
  * @datash: data relevant (av, input, args)
- * Return: always 0
+ * Return: no return
  */
 
 void shell_loop(data_shell *datash)
@@ -64,7 +64,7 @@ void shell_loop(data_shell *datash)
 			}
 			input = rep_var(input, datash);
 			red = split_commands(datash, input);
-			datash->counter = counter + 1;
+			datash->counter += 1;
 			free(input);
 		}
 		else

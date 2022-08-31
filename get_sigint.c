@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * git_sigint - Handle the ctrl + ccall in prompt
+ * git_sigint - Handle the crtl + c call in prompt
  * @sig: signal handler
- * Return: always 0
  */
 
 void get_sigint(int sig)

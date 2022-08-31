@@ -10,7 +10,7 @@
 
 int get_error(data_shell *datash, int eval)
 {
-	char *err;
+	char *error;
 
 	switch (eval)
 	{
@@ -37,6 +37,6 @@ int get_error(data_shell *datash, int eval)
 		free(error);
 	}
 
-	datash->status = evl;
+	datash->status = eval;
 	return (eval);
 }

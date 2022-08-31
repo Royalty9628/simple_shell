@@ -16,7 +16,7 @@ int exit_shell(data_shell *datash)
 		day = _atoi(datash->args[1]);
 		is_digit = _isdigit(datash->args[1]);
 		str_len = _strlen(datash->args[1]);
-		bit_number = day > (unsigned int) INT_MAX;
+		big_number = day > (unsigned int) INT_MAX;
 
 		if (!is_digit || str_len > 10 || big_number)
 		{
