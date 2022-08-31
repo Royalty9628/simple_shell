@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * get_builtin - builtin that pass the command in the arg
