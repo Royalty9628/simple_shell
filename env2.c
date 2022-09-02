@@ -7,7 +7,7 @@
  * Return: new env or alias
  */
 
-char *copy_infor(char *name, char *value)
+char *copy_info(char *name, char *value)
 {
 	char *new;
 	int len_name, len_value, len;

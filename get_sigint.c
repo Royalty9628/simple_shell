@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * git_sigint - Handle the crtl + c call in prompt
+ * get_sigint - Handle the crtl + c call in prompt
  * @sig: signal handler
  */
 
