@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * free_data - frees data structur
+ * free_data - frees data structure
  * @datash: data structure
  * Return: no return
  */
