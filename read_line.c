@@ -2,7 +2,7 @@
 
 /**
  * read_line - reads the input string.
- * @i_eof: return value of getline function
+ * @i_eof: return value of getline functio
  * Return: input string
  */
 
