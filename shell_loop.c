@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * without_comment - deletes comments from the inpu
+ * without_comment - deletes comments from the input
  * @in: input string
  * Return: input without comments
  */
