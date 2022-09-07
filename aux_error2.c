@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * error_env - error message for env in get_env.
+ * error_env - error message for env in get_env
  * @datash: data relevant (counter, arguments)
  * Return: error message.
  */
