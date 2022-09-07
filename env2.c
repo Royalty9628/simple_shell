@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * copy_info - copies info to create a new env or alia
+ * copy_info - copies info to create a new env or alias
  * @name: name (env or alias)
  * @value: value (env or lias)
  * Return: new env or alias
