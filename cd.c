@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cd_dot - changes to the parent directory
+ * cd_dot - changes to the parent director
  *
  * @datash: data relevant (environ)
  *
