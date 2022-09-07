@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * add_sep_node_end - adds a separator found at the end
+ * add_sep_node_end - adds a separator found at the en
  * of a sep_list.
  * @head: head of the linked list.
  * @sep: separator found (; | &).
