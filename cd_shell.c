@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cd_shell - changes current directory
+ * cd_shell - changes current director
  *
  * @datash: data relevant
  * Return: 1 on success
