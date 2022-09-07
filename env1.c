@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cmp_env_name - function that compares env varibles names
+ * cmp_env_name - function that compares env varibles name
  * wit the name passed
  * @nenv: name of the environment variable
  * @name: name passed
